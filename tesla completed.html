@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://127.0.0.1:5500/html1/solarpanel.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TESLA</title>
+        <link rel="stylesheet" href="./tesla completed_files/index.css">
+        <style>
+            body{
+                background-image: url(solarp.webp);
+                height: 100vh;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .info{
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 500px;
+    margin-left:300px;
+}
+.info h2{
+    font-size: 40px;
+    text-indent: 0px;
+}
+.solarpanel{
+    position: fixed;
+    top: 60px;
+    right: 1000px;
+    
+}
+.solarpanel h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+.para{
+    text-decoration: solid green;
+    font-size: 20px;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: fixed;
+    bottom: 310px;
+    margin-left:50px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <img src="./tesla completed_files/logo.png" class="logo" alt="">
+                <ul class="mainul">
+                    <li><a href="http://127.0.0.1:5500/html1/index.html">model-S</a> </li>
+                    <li><a href="http://127.0.0.1:5500/html1/model3.html">model-3</a> </li>
+                    <li><a href="http://127.0.0.1:5500/html1/modely.html">model-y</a></li>
+                    <li><a href="http://127.0.0.1:5500/html1/modelx.html">model-x</a> </li>
+                    <li><a href="http://127.0.0.1:5500/html1/solarpanel.html">solar panel</a> </li>
+                    <li><a href="http://127.0.0.1:5500/html1/contactus.html">contact us</a> </li>
+                </ul>
+                <a href="http://127.0.0.1:5500/html1/solarpanel.html" class="btn">GET YOURS NOW</a>
+            </nav>
+            <div class="solarpanel">
+            <h2>SOLAR PANEL</h2>
+            </div>
+            <div class="info">
+            <div>
+            <h2>Savings</h2>
+            <p>Electricity For Less</p>
+        </div>
+            <div class="para">
+            
+            <p>Use solar energy to power your home and reduce<br> your dependence on the grid. Purchase solar at the<br> lowest price of any national provider with <br>Tesla's price match guarantee and take control of your monthly electricity bill.<br> Schedule a virtual consultation with a Tesla Advisor to learn more.</p>
+        </div>
+    </div>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></body></html>
